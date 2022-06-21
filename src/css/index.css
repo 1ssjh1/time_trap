@@ -1,0 +1,520 @@
+.foot_color {
+  color: #ffad94;
+}
+.title_color {
+  background-color: #96cdea;
+}
+.bot_border {
+  border-bottom: 2.5px solid #018786;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+html {
+  max-width: 540px;
+  min-width: 320px;
+}
+.header {
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0px;
+  background-color: #7dbfe8;
+}
+.header section {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header section div {
+  flex: 1;
+}
+.header section .center {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header section .center h4 {
+  font-size: 0.6rem;
+  line-height: 0.4rem;
+}
+.header section .right {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: right;
+  align-items: center;
+}
+.header .top_sec {
+  height: 1rem;
+}
+.header .bot_sec {
+  height: 0.7rem;
+}
+.header .bot_sec .right {
+  font-size: 0.64rem;
+  margin-right: 0.4rem;
+  position: relative;
+}
+.header .bot_sec .right .add_course {
+  width: 2.6rem;
+  height: 3rem;
+  font-size: 0.3733rem;
+  position: absolute;
+  box-shadow: 0 0.0563rem 0.36rem 0 rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  top: 0.7rem;
+  z-index: 100;
+}
+.header .bot_sec .right .add_course ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.header .bot_sec .right .add_course ul li {
+  height: 0.5333rem;
+  line-height: 0.5333rem;
+  text-align: start;
+  padding-left: 0.1333rem;
+  width: 100%;
+}
+.header .bot_sec .right .add_course ul li:active {
+  background-color: #dedede;
+}
+.title {
+  width: 100%;
+  height: 10%;
+  margin-top: 5%;
+  background-color: #ebfcf2;
+  box-shadow: #c6c6c6 0px 1.5px 1.5px;
+}
+.title > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  align-items: center;
+}
+.title li {
+  flex: 1;
+  height: 0.6333rem;
+  border-radius: 0.2667rem;
+  text-align: center;
+  line-height: 0.6333rem;
+}
+.index_center {
+  height: 12.7367rem;
+  background-color: #c8fadc;
+}
+.index_center .enter_center {
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+}
+.index_center .enter_center > div {
+  height: 100%;
+}
+.index_center .desk_left {
+  flex: 9;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.index_center .desk_left > li {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: start;
+  align-items: center;
+}
+.index_center .desk_left > li ul {
+  height: 100%;
+  width: 7.2rem;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: start;
+  align-items: center;
+}
+.index_center .desk_left > li ul li {
+  height: 0.8667rem;
+  width: 1.7667rem;
+  border: 2px solid #7dbfe8;
+  border-radius: 0.13rem;
+  margin-right: 0.009rem;
+  text-align: center;
+  line-height: 0.8667rem;
+}
+.index_center .desk_left .time_table {
+  height: 100%;
+  flex: 1;
+  margin-left: 0.2rem;
+  margin-right: 0.4rem;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.index_center .desk_left .time_table p {
+  width: 0.89rem;
+  border: 2px #b0eeff solid;
+}
+.index_center .desk_left .time_table input {
+  width: 0.3rem;
+  height: 0.3rem;
+  border: 0.26rem solid #000;
+  border-radius: 0.64rem;
+  overflow: hidden;
+}
+.index_center .desk_right {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.index_center .desk_right .run_left {
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-top: 0.2667rem;
+  border: 2px solid #111111;
+  border-radius: 0.1333rem;
+}
+.index_center .desk_right .run_add {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: #7dbfe8;
+  border-radius: 0.2333rem;
+  margin-bottom: 0.2667rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #ffffff;
+  line-height: 0.7rem;
+}
+.add_list {
+  width: 100%;
+  height: 12.7367rem;
+}
+.add_list input:focus ~ span {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+.add_list .add_part {
+  width: 100%;
+  height: 100%;
+  background-color: #c8fadc;
+  display: flex;
+  flex-flow: normal row;
+  justify-content: start;
+  align-items: center;
+}
+.add_list .bai {
+  flex: 2.5;
+}
+.add_list .jiantou {
+  flex: 1;
+}
+.add_list .jiantou p {
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-top: 0.2667rem;
+  border: 2px solid #111111;
+  border-radius: 0.1333rem;
+}
+.add_list .course {
+  height: 100%;
+  flex: 6;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.add_list .course .part_course {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: none;
+  align-items: none;
+}
+.add_list .course .part_course .left {
+  height: 98%;
+  width: 1.3rem;
+  font-size: 0.65rem;
+  border: 1px solid #989595;
+  margin-right: 0.0467rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  line-height: 1.4rem;
+  font-family: cursive;
+}
+.add_list .course .part_course .right {
+  height: 100%;
+  width: 4.3rem;
+}
+.add_list .course .part_course .right ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+.add_list .course .part_course .right ul li {
+  height: 0.8667rem;
+  width: 1.7667rem;
+  border: 2px solid #7dbfe8;
+  border-radius: 0.13rem;
+  margin-right: 0.01rem;
+  text-align: center;
+  line-height: 0.8667rem;
+  border: 1px solid #313131;
+}
+.add_list .first li {
+  background-color: #7dbfe8;
+}
+.add_list .sec li {
+  background-color: #b0eeff;
+}
+.add_list .thir li {
+  background-color: #b0ffe2;
+}
+.add_list .four li {
+  background-color: #f9fade;
+}
+.analysis {
+  width: 100%;
+  height: 75%;
+  background-color: #c8fadc;
+}
+.analysis > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.analysis > div > section {
+  border: 2px solid #90d6ac;
+  border-radius: 0.2667rem;
+  margin-bottom: 0.3rem;
+}
+.analysis .section_title {
+  width: 90%;
+  flex: 1 ;
+}
+.analysis .future {
+  width: 90%;
+  flex: 2 ;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.analysis .future > :nth-child(1) {
+  width: 95%;
+  flex: 1;
+}
+.analysis .future > :nth-child(2) {
+  width: 95%;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 3;
+}
+.analysis .future > :nth-child(3) {
+  width: 95%;
+  flex: 2;
+}
+.analysis .statistics {
+  width: 90%;
+  flex: 4 ;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.analysis .statistics p {
+  flex: 1;
+  width: 100%;
+  height: 0.5333rem;
+  margin-left: 10px;
+}
+.analysis .statistics p i {
+  height: 90%;
+  width: 1.2667rem;
+  background-color: #b0ffe2;
+  border: 1px solid #90d6ac;
+  margin-top: 0.1333rem;
+  border-radius: 0.1867rem;
+}
+.analysis .statistics .kind_data {
+  width: 100%;
+  flex: 1.2;
+}
+.analysis .statistics .kind_data ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.analysis .statistics ._data {
+  flex: 5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+  align-items: center;
+}
+.analysis .statistics ._data .left {
+  width: 80%;
+  height: 2.96rem;
+}
+.analysis .statistics ._data .right {
+  width: 20%;
+  height: 100%;
+}
+.analysis .medal {
+  width: 90%;
+  flex: 1.8;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.analysis .medal > p {
+  flex: 1;
+  width: 100%;
+  height: 0.5333rem;
+  margin-left: 10px;
+}
+.analysis .medal > p i {
+  height: 90%;
+  width: 1.2667rem;
+  background-color: #b0ffe2;
+  border: 1px solid #90d6ac;
+  margin-top: 0.1333rem;
+  border-radius: 0.1867rem;
+}
+.analysis .medal section {
+  width: 100%;
+  flex: 1.5;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: start;
+  align-items: center;
+}
+.analysis .medal section > div {
+  flex: 1;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: start;
+  align-items: center;
+}
+.analysis .medal section p {
+  margin-left: 0.4rem;
+}
+.analysis .medal section i {
+  margin-left: 0.4rem;
+}
+.my_user {
+  width: 100%;
+  height: 75%;
+  background-color: #c8fadc;
+}
+.my_user > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.my_user > div > section {
+  width: 98%;
+  height: 5.5rem;
+}
+.my_user .head_sculpture > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.my_user .head_sculpture > div div {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 100%;
+  background: url(../image/111.webp) center center no-repeat;
+  background-size: 100% 100%;
+}
+.my_user .head_sculpture > div p {
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.my_user .set_up {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  justify-items: center;
+}
+.my_user .set_up > div {
+  width: 3.1rem;
+  height: 2rem;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.my_user .set_up > div i {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.my_user .set_up > div p {
+  font-size: 0.4rem;
+  margin-top: 0.2667rem;
+  color: #707070;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  border-bottom: none;
+  border-radius: 0.2667rem;
+  background-color: #c8fadc;
+  box-shadow: #c6c6c6 0px -1.5px 1.5px;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer > :nth-child(n) i {
+  width: 0.832rem;
+  height: 0.832rem;
+  font-size: 0.8333rem;
+}
+.footer > :nth-child(1) i {
+  text-align: center;
+  font-size: 0.7033rem;
+  line-height: 0.8333rem;
+}
+.footer section {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+.footer section p {
+  font-size: 0.3rem;
+}
